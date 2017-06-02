@@ -497,6 +497,21 @@ break;
             }
             System.out.println("Row?");
             int y13 = -9;
+			if (gg[y][x] != 9 || gg[y2][x2] != 9) {
+			System.out.println("Those coordinates are not vacant");
+			break; }
+			gg[y][x] = grid[y][x];
+			gg[y2][x2] = grid[y2][x2];
+			if (grid[y][x] == d.high && grid[y2][x2] == d.low) {
+			d.place(x, y, x2, y2);
+			} else {
+			d.place(x2, y2, x, y);
+			}
+			score += 1000;
+			collateGuessGrid();
+			pf.dp.repaint();
+			}
+
             while (y13 < 1 || y13 > 7) {
               try {
                 String s3 = IOLibrary.getString();
