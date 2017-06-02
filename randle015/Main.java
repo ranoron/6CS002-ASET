@@ -255,11 +255,7 @@ public class Main {
     }
   }
 
-  private void printGuesses() {
-    for (Domino d : _g) {
-      System.out.println(d);
-    }
-  }
+
 
   public final int ZERO = 0;
 
