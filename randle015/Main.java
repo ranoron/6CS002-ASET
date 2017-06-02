@@ -150,6 +150,8 @@ public class Main {
       System.exit(0);
     }
   }
+private void generateDominoes() { 
+dominoList = new LinkedList<Domino>();
 
   private void rotateDominoes() {
    
