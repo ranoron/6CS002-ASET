@@ -124,12 +124,11 @@ public int[][] gg = new int[7][8];
   }
 
   private void invertSomeDominoes() {
-    for (Domino d : _d) {
-      if (Math.random() > 0.5) {
-        d.invert();
-      }
-    }
-  }
+for (Domino d : dominoList) { if (Math.random() > MATH_CONSTANT) {
+d.invert();
+}
+}
+}
 
   private void placeDominoes() {
      x = 0;
