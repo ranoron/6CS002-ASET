@@ -17,11 +17,10 @@ import javax.swing.JScrollPane;
 
 public class Main {
 
-  private String playerName;
-  public List<Domino> _d;
-  public List<Domino> _g;
-  public int[][] grid = new int[7][8];
-  public int[][] gg = new int[7][8];
+  private String playerName; static final double MATH_CONSTANT=0.5;
+public List<Domino> dominoList;
+public int[][] grid = new int[7][8];
+public int[][] gg = new int[7][8];
   int mode = -1;
   int cf,bonus;
   int score,x,y,count;
