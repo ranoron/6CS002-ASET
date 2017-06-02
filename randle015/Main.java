@@ -33,8 +33,7 @@ public class Main {
   private void generateDominoes() {
     _d = new LinkedList<Domino>();
     count = 0;
-    x = 0;
-    y = 0;
+   cont=0;int x; int y; to
     for (int l = 0; l <= 6; l++) {
       for (int h = l; h <= 6; h++) {
         Domino d = new Domino(h, l);
