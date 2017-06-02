@@ -353,14 +353,7 @@ public class Main {
           collateGrid();
           // printGrid();
           break;
-        case 2:
-          generateDominoes();
-          shuffleDominoesOrder();
-          placeDominoes();
-          rotateDominoes();
-          collateGrid();
-          // printGrid();
-          break;
+        
         default:
           generateDominoes();
           shuffleDominoesOrder();
