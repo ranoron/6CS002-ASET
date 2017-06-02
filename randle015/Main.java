@@ -285,6 +285,7 @@ public class Main {
 
     int _$_ = -9;
     while (_$_ != ZERO) {
+		
       System.out.println();
       String h1 = "Main menu";
       String u1 = h1.replaceAll(".", "=");
@@ -308,24 +309,14 @@ public class Main {
           _$_ = -9;
         }
       }
-      switch (_$_) {
-      case 5:
-        int index = (int) (Math.random() * (Slough.tiger.length / 3));
-        String what = Slough.tiger[index * 3];
-        String who = Slough.tiger[1 + index * 3];
-        System.out.printf("%s said \"%s\"", who, what);
-        System.out.println();
-        System.out.println();
-        break;      
-      case 0: {
-        if (_d == null) {
-          System.out.println("It is a shame that you did not want to play");
-        } else {
-          System.out.println("Thankyou for playing");
-        }
-        System.exit(0);
-        break;
-      }
+      switch (_$_) { case 5:
+int index = (int) (Math.random() * (Haslemere.platypus.length / 3));
+String what = Haslemere.platypus[index * 3];
+String who = Haslemere.platypus[1 + index * 3];
+System.out.printf("%s said \"%s\"", who, what);
+System.out.println();
+System.out.println();
+break;
       case 1: {
         System.out.println();
         String h4 = "Select difficulty";
